@@ -8,6 +8,7 @@ I followed this guide for the object detection: https://core-electronics.com.au/
 The CAD files and code are here. 
 
 Pins used on the Pi: 
+  
   pinLaser = 5    # Laser     
   pinBase = 12    # Base servo
   pinCam = 13     # Camera sevo
