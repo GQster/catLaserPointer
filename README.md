@@ -13,3 +13,4 @@ pinBase = 12    # Base servo
 pinCam = 13     # Camera sevo
 
 *NOTE: These are the GPIO.BCM pins
+**NOTE: Down around line 340- 350 of "v2CatPointer.py" you can set which objects the robot should detect in "objects= ['cat', 'dog', 'person'] of getObjects() and searchforobject(). There are many different options saved in the "coco.names" file. 
