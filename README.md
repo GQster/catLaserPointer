@@ -28,3 +28,4 @@ Improvments:
 
 *NOTE: These are the GPIO.BCM pins
 **NOTE: Down around line 340- 350 of "v2CatPointer.py" you can set which objects the robot should detect in "objects= ['cat', 'dog', 'person'] of getObjects() and searchforobject(). There are many different options saved in the "coco.names" file. 
+***NOTE: I measured and cadded all the models so they might not be exact. That said I'm fairly sure they are accurate as everything works when basing the measurments off them.
