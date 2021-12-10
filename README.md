@@ -8,9 +8,9 @@ I followed this guide for the object detection: https://core-electronics.com.au/
 The CAD files and code are here. 
 
 Pins used on the Pi: 
-pinLaser = 5    # Laser     
-pinBase = 12    # Base servo
-pinCam = 13     # Camera sevo
+  pinLaser = 5    # Laser     
+  pinBase = 12    # Base servo
+  pinCam = 13     # Camera sevo
 
 
 Basically the code works by detecting the object, drawing a bounding box on the object, finding its center, then trying to center the object in the image by using the servos. 
