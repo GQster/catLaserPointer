@@ -29,6 +29,13 @@ Improvments:
   -Different robot physical design to increase its workspace
 
 
+Its view
+![image](https://user-images.githubusercontent.com/45495216/145635432-8a5ce3fa-3d6f-4931-9fb4-6ecebac852be.png)
+
+![image](https://user-images.githubusercontent.com/45495216/145635451-dcbee6a6-c859-4fcb-bd2f-bde5209dad1c.png)
+
+
+
 *NOTE: These are the GPIO.BCM pins
 
 **NOTE: Down around line 340- 350 of "v2CatPointer.py" you can set which objects the robot should detect in "objects= ['cat', 'dog', 'person'] of getObjects() and searchforobject(). There are many different options saved in the "coco.names" file. 
