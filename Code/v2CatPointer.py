@@ -2,8 +2,9 @@
 #   Coder: Grant Croft (gxc9140)
 #   RIT 585 Principles of Robotics final project
 #   This is a cat laser pointer project and can be found on: https://github.com/grantcroft/catLaserPointer/blob/main/README.md 
+#
+#	For slightly less lag, comment out the .imshow and .waitKey on lines 344 & 345
 #****************************************************************
-
 import cv2
 import RPi.GPIO as GPIO                                         # Import RPi.GPIO module
 import time
