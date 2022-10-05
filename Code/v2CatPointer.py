@@ -207,7 +207,6 @@ def searchforobject(img, thres, nms, servoC, servoB, draw=True, objects=[]):
         servoB.ChangeDutyCycle(0)
         print("Searching left for object. Base angle: {}".format(baseAngle))
 
-
     return
 
 
