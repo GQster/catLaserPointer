@@ -11,9 +11,9 @@ import cv2
 # Imave Control Varibales
 imageW = 640
 imageH = 480
-camFPS = 30#15#
-imageCapW = 160#320#177#
-imageCapH = 120#240#144#
+camFPS = 30             # 30 or 15
+imageCapW =320          # 160, 177, or 320
+imageCapH =240          # 120, 144, or 240
 
 classFile = "coco.names"
 weightsPath = "frozen_inference_graph.pb"
@@ -115,7 +115,7 @@ def getObjects(img, thres, nms, draw=True, objects=[]):
 
                     drawOnImg('box', img, classId, confidence, 0, 0, box)       # Draw bounding box
                     drawOnImg('center', img, classId, confidence, 0, 0, box)    # Find center of obj
-                    drawOnImg('line', img, classId, confidence, 0, 0)                     # Draw quad grid
+                    drawOnImg('line', img, classId, confidence, 0, 0)           # Draw quad grid
     return img,objectInfo
 
 
