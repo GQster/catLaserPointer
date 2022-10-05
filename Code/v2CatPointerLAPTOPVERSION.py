@@ -15,9 +15,9 @@ camFPS = 30#15#
 imageCapW = 160#320#177#
 imageCapH = 120#240#144#
 
-classFile = "/Users/grant/Documents/objDetection/coco.names"
-weightsPath = "/Users/grant/Documents/objDetection/frozen_inference_graph.pb"
-configPath = "/Users/grant/Documents/objDetection/ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt"
+classFile = "coco.names"
+weightsPath = "frozen_inference_graph.pb"
+configPath = "ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt"
 classNames = []
 timeCatLastSeen = 0.0
 
