@@ -350,7 +350,7 @@ if __name__ == "__main__":
 #                motorMove(0, 0, sCamObj, sBaseObj, 0, False)   # Stop Motors
 
             if noObjFound:
-                print("Object not found for ", int(time.time()-timeCatLastSeen), " seconds.")
+                print("Object not found for ", int(time.time()-timeCatLastSeen), " seconds.")                   # DOESNT WORK QUITE RIGHT... IF NEVER FOUND OBJECT PRINTS HUGE NUMBER
 
 
         except KeyboardInterrupt:
