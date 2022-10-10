@@ -303,6 +303,8 @@ def clean_up(servoC, servoB):                                                   
 
 if __name__ == "__main__":
     #Setup:
+    timeCatLastSeen = time.time() 
+    
     print("Hello, starting up the cat laser pointer!")
     sCamObj, sBaseObj = GPIOSetup()                             # Creating Camera Servo object and DC motor object
 
